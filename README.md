@@ -1,4 +1,6 @@
-![Logo](assets/logo_processed.png)
+<p align="center">
+  <img src="assets/logo_processed.png" alt="UserBench Logo" width="200"/>
+</p>
 
 # UserBench: An Interactive Gym Environment for User-Centric Agents
 
