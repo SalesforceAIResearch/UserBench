@@ -1,6 +1,12 @@
-# TravelGym (UserGym)
+![Logo](assets/logo_processed.png)
 
-TravelGym is a comprehensive evaluation environment for testing language models on multi-turn travel planning tasks. Originally presented as "UserGym" in our research paper, this open-source implementation provides a robust framework for evaluating how well language models can understand user preferences, make appropriate function calls, and provide personalized recommendations in travel planning scenarios.
+# UserBench: An Interactive Gym Environment for User-Centric Agents
+
+This is the official repository for paper "UserBench: An Interactive Gym Environment for User-Centric Agents".
+
+UserBench is an evaluation environment for testing language models on multi-turn travel planning tasks. This open-source implementation provides a robust framework for evaluating how well language models can understand user preferences, make appropriate function calls, and provide personalized recommendations in travel planning scenarios.
+
+![DataPipeline](assets/pipeline_bg.png)
 
 ## 🚀 Quick Start
 
@@ -8,8 +14,8 @@ TravelGym is a comprehensive evaluation environment for testing language models 
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd UserGym-Open
+git clone https://github.com/SalesforceAIResearch/UserBench.git
+cd UserBench
 
 # Install dependencies
 pip install -r requirements.txt
