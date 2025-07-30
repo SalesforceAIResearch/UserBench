@@ -3,6 +3,7 @@
 </p>
 
 # UserBench: An Interactive Gym Environment for User-Centric Agents
+| [**📖 Paper**](https://arxiv.org/pdf/2507.22034) | [**📊 Dataset**](https://github.com/SalesforceAIResearch/UserBench/tree/main/travelgym/data) |
 
 This is the official repository for paper "UserBench: An Interactive Gym Environment for User-Centric Agents".
 
@@ -157,4 +158,14 @@ for step in range(config.max_steps):
     observation, reward, terminated, truncated, info = env.step(action)
     if terminated or truncated:
         break
+```
+
+## 🖊️ Citation
+```text
+@article{qian2025userbench,
+  title={UserBench: An Interactive Gym Environment for User-Centric Agents},
+  author={Qian, Cheng and Liu, Zuxin and Prabhakar, Akshara and Liu, Zhiwei and Zhang, Jianguo and Chen, Haolin and Ji, Heng and Yao, Weiran and Heinecke, Shelby and Savarese, Silvio and Xiong, Caiming and Wang, Huan},
+  journal={arXiv preprint arXiv:2507.22034},
+  year={2025}
+}
 ```
