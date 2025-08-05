@@ -17,3 +17,4 @@ dist/
 
 test.py
 test_human.py
+eval_test.sh

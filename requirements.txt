@@ -1,4 +1,11 @@
 gymnasium>=0.26.0
 numpy>=1.21.0
-openai>=1.0.0
 pyyaml>=6.0
+
+openai
+together
+google-genai
+boto3
+
+pyarrow
+fastparquet

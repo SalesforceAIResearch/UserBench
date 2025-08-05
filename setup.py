@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="travelgym",
     version="1.0.0",
-    author="TravelGym Team",
-    author_email="",
+    author="Salesforce AI Research",
+    author_email="cqian@salesforce.com",
     description="A Gymnasium environment for travel planning preference elicitation simulation using LLMs",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/your-username/travelgym",
+    url="https://github.com/SalesforceAIResearch/UserBench",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -31,8 +31,13 @@ setup(
     install_requires=[
         "gymnasium>=0.26.0",
         "numpy>=1.21.0",
-        "openai>=1.0.0",
         "pyyaml>=6.0",
+        "together",
+        "google-genai",
+        "boto3",
+        "openai",
+        "pyarrow",
+        "fastparquet",
     ],
     extras_require={
         "dev": [

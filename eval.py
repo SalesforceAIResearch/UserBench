@@ -16,6 +16,10 @@ import boto3
 
 MAX_WORKER_NUM = int(os.environ.get("MAX_WORKER_NUM", 25))
 semaphore = asyncio.Semaphore(MAX_WORKER_NUM)
+
+os.environ["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY", "")
+os.environ["TOGETHER_API_KEY"] = os.environ.get("TOGETHER_API_KEY", "")
+os.environ["GENAI_API_KEY"] = os.environ.get("GENAI_API_KEY", "")
     
 async def load_data(env_name, one_choice=False):
     # Use environment variable for data path, default to local data directory
