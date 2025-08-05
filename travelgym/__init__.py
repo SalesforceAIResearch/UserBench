@@ -10,18 +10,16 @@ from .env import TravelEnv
 from .config import (
     TravelGymConfig,
     get_default_config,
-    get_demo_config,
 )
 
 __version__ = "0.1.0"
-__author__ = "TravelGym Team"
-__email__ = "team@travelgym.ai"
+__author__ = "Salesforce AI Research"
+__email__ = "cqian@salesforce.com"
 
 __all__ = [
     "TravelEnv",
     "TravelGymConfig",
     "get_default_config",
-    "get_demo_config",
 ]
 
 # Register the environment with Gymnasium
